@@ -1,0 +1,9 @@
+H:\项目\VideoNet\VideoNet\Model\bin\Debug\Maticsoft.Model.dll
+H:\项目\VideoNet\VideoNet\Model\bin\Debug\Maticsoft.Model.pdb
+H:\项目\VideoNet\VideoNet\Model\obj\Debug\Maticsoft.Model.dll
+H:\项目\VideoNet\VideoNet\Model\obj\Debug\Maticsoft.Model.pdb
+H:\项目\VideoNet\VideoNet\Model\obj\Debug\Model.csprojResolveAssemblyReference.cache
+C:\Users\张权\Desktop\VideoNet\Model\bin\Debug\Maticsoft.Model.dll
+C:\Users\张权\Desktop\VideoNet\Model\bin\Debug\Maticsoft.Model.pdb
+C:\Users\张权\Desktop\VideoNet\Model\obj\Debug\Maticsoft.Model.dll
+C:\Users\张权\Desktop\VideoNet\Model\obj\Debug\Maticsoft.Model.pdb

@@ -1,0 +1,9 @@
+H:\项目\VideoNet\VideoNet\DBUtility\bin\Release\Maticsoft.DBUtility.dll
+H:\项目\VideoNet\VideoNet\DBUtility\bin\Release\MySql.Data.dll
+H:\项目\VideoNet\VideoNet\DBUtility\bin\Release\System.Data.SQLite.DLL
+H:\项目\VideoNet\VideoNet\DBUtility\obj\Release\Maticsoft.DBUtility.dll
+C:\Users\张权\Desktop\VideoNet\DBUtility\bin\Release\Maticsoft.DBUtility.dll
+C:\Users\张权\Desktop\VideoNet\DBUtility\bin\Release\MySql.Data.dll
+C:\Users\张权\Desktop\VideoNet\DBUtility\bin\Release\System.Data.SQLite.DLL
+C:\Users\张权\Desktop\VideoNet\DBUtility\obj\Release\DBUtility.csprojResolveAssemblyReference.cache
+C:\Users\张权\Desktop\VideoNet\DBUtility\obj\Release\Maticsoft.DBUtility.dll

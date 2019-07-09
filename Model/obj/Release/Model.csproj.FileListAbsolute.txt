@@ -1,0 +1,4 @@
+H:\项目\VideoNet\VideoNet\Model\bin\Release\Maticsoft.Model.dll
+H:\项目\VideoNet\VideoNet\Model\obj\Release\Maticsoft.Model.dll
+C:\Users\张权\Desktop\VideoNet\Model\bin\Release\Maticsoft.Model.dll
+C:\Users\张权\Desktop\VideoNet\Model\obj\Release\Maticsoft.Model.dll

@@ -1,0 +1,1741 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+您 Web 项目的发布/打包进程将使用此文件。您可以通过编辑此 MSBuild 文件
+来自定义该进程的行为。若要了解与此相关的详细信息，请访问 http://go.microsoft.com/fwlink/?LinkID=208121。
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>C:\Users\张权\Desktop\新建文件夹</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="add/AddCode.aspx">
+      <publishTime>05/24/2017 09:47:28</publishTime>
+    </File>
+    <File Include="ashx/ForgetPassWord.ashx">
+      <publishTime>05/25/2017 11:21:06</publishTime>
+    </File>
+    <File Include="ashx/HomePage.ashx">
+      <publishTime>06/02/2017 09:06:02</publishTime>
+    </File>
+    <File Include="ashx/HTMLVideoPlayer.ashx">
+      <publishTime>09/05/2017 20:00:27</publishTime>
+    </File>
+    <File Include="ashx/Login.ashx">
+      <publishTime>05/16/2017 20:08:18</publishTime>
+    </File>
+    <File Include="ashx/PersonalMessage.ashx">
+      <publishTime>05/30/2017 19:44:29</publishTime>
+    </File>
+    <File Include="ashx/userRegister.ashx">
+      <publishTime>05/21/2017 19:53:42</publishTime>
+    </File>
+    <File Include="ashx/ValidateCode.ashx">
+      <publishTime>05/25/2017 15:06:16</publishTime>
+    </File>
+    <File Include="bin/Common.dll">
+      <publishTime>09/28/2017 09:40:56</publishTime>
+    </File>
+    <File Include="bin/fastJSON.dll">
+      <publishTime>09/05/2017 16:13:40</publishTime>
+    </File>
+    <File Include="bin/LTP.Accounts.dll">
+      <publishTime>03/06/2014 18:33:02</publishTime>
+    </File>
+    <File Include="bin/Maticsoft.BLL.dll">
+      <publishTime>09/28/2017 09:40:57</publishTime>
+    </File>
+    <File Include="bin/Maticsoft.Common.dll">
+      <publishTime>03/06/2014 18:33:04</publishTime>
+    </File>
+    <File Include="bin/Maticsoft.DAL.dll">
+      <publishTime>09/28/2017 09:40:56</publishTime>
+    </File>
+    <File Include="bin/Maticsoft.DBUtility.dll">
+      <publishTime>09/05/2017 21:08:21</publishTime>
+    </File>
+    <File Include="bin/Maticsoft.Model.dll">
+      <publishTime>09/05/2017 21:08:21</publishTime>
+    </File>
+    <File Include="bin/Maticsoft.Web.dll">
+      <publishTime>09/28/2017 09:40:57</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Web.UI.WebControls.dll">
+      <publishTime>03/06/2014 18:33:04</publishTime>
+    </File>
+    <File Include="bin/MySql.Data.dll">
+      <publishTime>03/06/2014 18:33:02</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>08/21/2017 16:32:16</publishTime>
+    </File>
+    <File Include="bin/System.Data.SQLite.dll">
+      <publishTime>03/06/2014 18:33:02</publishTime>
+    </File>
+    <File Include="css/bootstrap-theme.css">
+      <publishTime>05/16/2017 11:20:02</publishTime>
+    </File>
+    <File Include="css/bootstrap-theme.css.map">
+      <publishTime>05/16/2017 11:20:02</publishTime>
+    </File>
+    <File Include="css/bootstrap-theme.min.css">
+      <publishTime>05/16/2017 11:20:02</publishTime>
+    </File>
+    <File Include="css/bootstrap-theme.min.css.map">
+      <publishTime>05/16/2017 11:20:02</publishTime>
+    </File>
+    <File Include="css/bootstrap.css">
+      <publishTime>05/31/2017 20:46:04</publishTime>
+    </File>
+    <File Include="css/bootstrap.css.map">
+      <publishTime>05/16/2017 11:20:02</publishTime>
+    </File>
+    <File Include="css/bootstrap.min.css">
+      <publishTime>05/16/2017 11:20:02</publishTime>
+    </File>
+    <File Include="css/bootstrap.min.css.map">
+      <publishTime>05/16/2017 11:20:02</publishTime>
+    </File>
+    <File Include="css/dashboard.css">
+      <publishTime>06/05/2017 11:30:05</publishTime>
+    </File>
+    <File Include="css/flexslider.css">
+      <publishTime>05/31/2017 20:46:04</publishTime>
+    </File>
+    <File Include="css/font-awesome.min.css">
+      <publishTime>05/31/2017 20:46:04</publishTime>
+    </File>
+    <File Include="css/ie10-viewport-bug-workaround.css">
+      <publishTime>05/16/2017 11:20:02</publishTime>
+    </File>
+    <File Include="css/megamenu.css">
+      <publishTime>06/01/2017 10:29:30</publishTime>
+    </File>
+    <File Include="css/menu.css">
+      <publishTime>05/31/2017 20:46:04</publishTime>
+    </File>
+    <File Include="css/pageBarStyle.css">
+      <publishTime>07/12/2017 09:47:20</publishTime>
+    </File>
+    <File Include="css/popuo-box.css">
+      <publishTime>05/31/2017 20:46:04</publishTime>
+    </File>
+    <File Include="css/signin.css">
+      <publishTime>05/16/2017 11:20:02</publishTime>
+    </File>
+    <File Include="css/style.css">
+      <publishTime>08/25/2017 15:38:51</publishTime>
+    </File>
+    <File Include="Error.aspx">
+      <publishTime>08/31/2017 12:46:56</publishTime>
+    </File>
+    <File Include="ForgetPassWord.aspx">
+      <publishTime>08/31/2017 12:51:49</publishTime>
+    </File>
+    <File Include="HeadPortraitImages/b614d3bf0d897dd651f1b937b957ac8a.jpg">
+      <publishTime>06/03/2017 14:35:24</publishTime>
+    </File>
+    <File Include="HomePage.aspx">
+      <publishTime>09/06/2017 16:23:40</publishTime>
+    </File>
+    <File Include="IfRegister.aspx">
+      <publishTime>09/06/2017 10:54:51</publishTime>
+    </File>
+    <File Include="images/150x50.jpg">
+      <publishTime>06/01/2017 10:46:41</publishTime>
+    </File>
+    <File Include="images/200x300.jpg">
+      <publishTime>06/01/2017 10:46:42</publishTime>
+    </File>
+    <File Include="images/75x75.jpg">
+      <publishTime>06/01/2017 10:46:41</publishTime>
+    </File>
+    <File Include="images/arr.png">
+      <publishTime>06/01/2017 10:46:42</publishTime>
+    </File>
+    <File Include="images/b3.jpg">
+      <publishTime>06/01/2017 10:46:42</publishTime>
+    </File>
+    <File Include="images/b8.jpg">
+      <publishTime>06/01/2017 10:46:43</publishTime>
+    </File>
+    <File Include="images/book-a-smile.jpg">
+      <publishTime>06/01/2017 10:46:43</publishTime>
+    </File>
+    <File Include="images/e2b80f83d68664dcd85cd4bc89c3a6dc.png">
+      <publishTime>09/06/2017 16:20:22</publishTime>
+    </File>
+    <File Include="images/f5.jpg">
+      <publishTime>06/01/2017 10:46:43</publishTime>
+    </File>
+    <File Include="images/f6.jpg">
+      <publishTime>06/01/2017 10:46:43</publishTime>
+    </File>
+    <File Include="images/footer-icon.png">
+      <publishTime>06/01/2017 10:46:43</publishTime>
+    </File>
+    <File Include="images/gif.png">
+      <publishTime>06/01/2017 10:46:43</publishTime>
+    </File>
+    <File Include="images/icon1.png">
+      <publishTime>06/01/2017 10:46:43</publishTime>
+    </File>
+    <File Include="images/noImage.gif">
+      <publishTime>08/30/2017 09:52:11</publishTime>
+    </File>
+    <File Include="images/QQ.jpg">
+      <publishTime>07/07/2017 15:49:06</publishTime>
+    </File>
+    <File Include="images/QQZF.jpg">
+      <publishTime>07/07/2017 15:38:00</publishTime>
+    </File>
+    <File Include="images/r2.jpg">
+      <publishTime>06/01/2017 10:46:44</publishTime>
+    </File>
+    <File Include="images/vocher.jpg">
+      <publishTime>09/04/2017 21:18:01</publishTime>
+    </File>
+    <File Include="images/WeChat.jpg">
+      <publishTime>07/07/2017 15:52:08</publishTime>
+    </File>
+    <File Include="images/WeChatErWeima.png">
+      <publishTime>07/07/2017 10:01:21</publishTime>
+    </File>
+    <File Include="images/ZFB.jpg">
+      <publishTime>07/07/2017 15:51:37</publishTime>
+    </File>
+    <File Include="images/zfberweima.jpg">
+      <publishTime>07/04/2017 08:47:27</publishTime>
+    </File>
+    <File Include="js/bootstrap.js">
+      <publishTime>05/16/2017 11:19:45</publishTime>
+    </File>
+    <File Include="js/bootstrap.min.js">
+      <publishTime>05/31/2017 20:45:43</publishTime>
+    </File>
+    <File Include="js/countUp.js">
+      <publishTime>05/31/2017 19:47:57</publishTime>
+    </File>
+    <File Include="js/custom.js">
+      <publishTime>05/31/2017 19:47:57</publishTime>
+    </File>
+    <File Include="js/easing.js">
+      <publishTime>05/31/2017 20:45:43</publishTime>
+    </File>
+    <File Include="js/easyResponsiveTabs.js">
+      <publishTime>05/31/2017 20:45:43</publishTime>
+    </File>
+    <File Include="js/ForgetPassWord.js">
+      <publishTime>08/29/2017 15:50:17</publishTime>
+    </File>
+    <File Include="js/HomePage.js">
+      <publishTime>09/06/2017 15:36:30</publishTime>
+    </File>
+    <File Include="js/ie-emulation-modes-warning.js">
+      <publishTime>05/16/2017 11:19:45</publishTime>
+    </File>
+    <File Include="js/ie10-viewport-bug-workaround.js">
+      <publishTime>05/16/2017 11:19:45</publishTime>
+    </File>
+    <File Include="js/jquery-1.10.2.js">
+      <publishTime>05/31/2017 19:47:57</publishTime>
+    </File>
+    <File Include="js/jquery-3.1.1.js">
+      <publishTime>05/16/2017 11:50:55</publishTime>
+    </File>
+    <File Include="js/jquery.cookie.js">
+      <publishTime>07/12/2017 19:13:32</publishTime>
+    </File>
+    <File Include="js/jquery.flexisel.js">
+      <publishTime>05/31/2017 20:45:43</publishTime>
+    </File>
+    <File Include="js/jquery.flexslider.js">
+      <publishTime>05/31/2017 20:45:43</publishTime>
+    </File>
+    <File Include="js/jquery.form.js">
+      <publishTime>05/16/2017 11:50:55</publishTime>
+    </File>
+    <File Include="js/jquery.leanModal.min.js">
+      <publishTime>05/31/2017 20:45:43</publishTime>
+    </File>
+    <File Include="js/jquery.magnific-popup.js">
+      <publishTime>05/31/2017 20:45:43</publishTime>
+    </File>
+    <File Include="js/jquery.min.js">
+      <publishTime>05/31/2017 20:45:43</publishTime>
+    </File>
+    <File Include="js/layer/layer.js">
+      <publishTime>05/16/2017 11:50:30</publishTime>
+    </File>
+    <File Include="js/layer/mobile/layer.js">
+      <publishTime>05/16/2017 11:50:30</publishTime>
+    </File>
+    <File Include="js/layer/mobile/need/layer.css">
+      <publishTime>05/16/2017 11:50:30</publishTime>
+    </File>
+    <File Include="js/layer/skin/default/icon-ext.png">
+      <publishTime>05/16/2017 11:50:30</publishTime>
+    </File>
+    <File Include="js/layer/skin/default/icon.png">
+      <publishTime>05/16/2017 11:50:30</publishTime>
+    </File>
+    <File Include="js/layer/skin/default/layer.css">
+      <publishTime>05/16/2017 11:50:30</publishTime>
+    </File>
+    <File Include="js/layer/skin/default/loading-0.gif">
+      <publishTime>05/16/2017 11:50:30</publishTime>
+    </File>
+    <File Include="js/layer/skin/default/loading-1.gif">
+      <publishTime>05/16/2017 11:50:30</publishTime>
+    </File>
+    <File Include="js/layer/skin/default/loading-2.gif">
+      <publishTime>05/16/2017 11:50:30</publishTime>
+    </File>
+    <File Include="js/LookVideoParticulars.js">
+      <publishTime>09/06/2017 19:40:13</publishTime>
+    </File>
+    <File Include="js/megamenu.js">
+      <publishTime>05/31/2017 20:45:43</publishTime>
+    </File>
+    <File Include="js/move-top.js">
+      <publishTime>05/31/2017 20:45:43</publishTime>
+    </File>
+    <File Include="js/NoRegisterPay.js">
+      <publishTime>07/07/2017 16:27:53</publishTime>
+    </File>
+    <File Include="js/npm.js">
+      <publishTime>05/16/2017 11:19:45</publishTime>
+    </File>
+    <File Include="js/PersonalMessage.js">
+      <publishTime>05/31/2017 15:03:42</publishTime>
+    </File>
+    <File Include="js/responsive-tabs.js">
+      <publishTime>05/31/2017 20:45:43</publishTime>
+    </File>
+    <File Include="js/responsiveslides.min.js">
+      <publishTime>05/31/2017 20:45:43</publishTime>
+    </File>
+    <File Include="js/system.js">
+      <publishTime>09/25/2017 10:19:20</publishTime>
+    </File>
+    <File Include="Login.aspx">
+      <publishTime>08/31/2017 12:47:26</publishTime>
+    </File>
+    <File Include="LookVideoParticulars.aspx">
+      <publishTime>09/06/2017 16:19:44</publishTime>
+    </File>
+    <File Include="NoRegisterPay.aspx">
+      <publishTime>08/31/2017 12:53:16</publishTime>
+    </File>
+    <File Include="PersonalMessage.aspx">
+      <publishTime>08/31/2017 12:52:31</publishTime>
+    </File>
+    <File Include="PrecompiledApp.config">
+      <publishTime>09/28/2017 09:41:16</publishTime>
+    </File>
+    <File Include="TvDatil.aspx">
+      <publishTime>09/03/2017 22:14:52</publishTime>
+    </File>
+    <File Include="userRegister.aspx">
+      <publishTime>09/25/2017 11:04:49</publishTime>
+    </File>
+    <File Include="video/6153432_2_0.mp4">
+      <publishTime>06/05/2017 11:13:14</publishTime>
+    </File>
+    <File Include="VideoBoFangQi.aspx">
+      <publishTime>08/28/2017 20:47:49</publishTime>
+    </File>
+    <File Include="VidoAdmin/AdminIndex.aspx">
+      <publishTime>08/31/2017 12:48:31</publishTime>
+    </File>
+    <File Include="VidoAdmin/AdminLogin.aspx">
+      <publishTime>08/31/2017 12:48:37</publishTime>
+    </File>
+    <File Include="VidoAdmin/ashx/AdminSystem.ashx">
+      <publishTime>08/17/2017 16:20:30</publishTime>
+    </File>
+    <File Include="VidoAdmin/ashx/Config.ashx">
+      <publishTime>08/18/2017 19:45:52</publishTime>
+    </File>
+    <File Include="VidoAdmin/ashx/Users.ashx">
+      <publishTime>08/23/2017 16:54:06</publishTime>
+    </File>
+    <File Include="VidoAdmin/ashx/Video.ashx">
+      <publishTime>08/19/2017 17:09:35</publishTime>
+    </File>
+    <File Include="VidoAdmin/ConfigIndex.aspx">
+      <publishTime>08/31/2017 12:48:43</publishTime>
+    </File>
+    <File Include="VidoAdmin/ConfigSys.aspx">
+      <publishTime>08/18/2017 20:35:51</publishTime>
+    </File>
+    <File Include="VidoAdmin/Control/Footer.ascx">
+      <publishTime>08/17/2017 22:41:55</publishTime>
+    </File>
+    <File Include="VidoAdmin/Control/Header.ascx">
+      <publishTime>09/02/2017 15:15:29</publishTime>
+    </File>
+    <File Include="VidoAdmin/css/Adminstyle.css">
+      <publishTime>08/17/2017 15:32:24</publishTime>
+    </File>
+    <File Include="VidoAdmin/Error/404.html">
+      <publishTime>08/18/2017 20:35:07</publishTime>
+    </File>
+    <File Include="VidoAdmin/Error/css/bootstrap.css">
+      <publishTime>08/17/2017 22:46:22</publishTime>
+    </File>
+    <File Include="VidoAdmin/Error/css/font-awesome.min.css">
+      <publishTime>08/17/2017 22:46:22</publishTime>
+    </File>
+    <File Include="VidoAdmin/Error/css/style.css">
+      <publishTime>08/17/2017 22:46:22</publishTime>
+    </File>
+    <File Include="VidoAdmin/Error/fonts/fontawesome-webfont.woff">
+      <publishTime>08/17/2017 22:46:22</publishTime>
+    </File>
+    <File Include="VidoAdmin/Error/images/light.jpg">
+      <publishTime>08/17/2017 22:46:22</publishTime>
+    </File>
+    <File Include="VidoAdmin/Error/js/bootstrap.js">
+      <publishTime>08/17/2017 22:46:22</publishTime>
+    </File>
+    <File Include="VidoAdmin/Error/js/countUp.js">
+      <publishTime>08/17/2017 22:46:22</publishTime>
+    </File>
+    <File Include="VidoAdmin/Error/js/custom.js">
+      <publishTime>08/17/2017 22:46:22</publishTime>
+    </File>
+    <File Include="VidoAdmin/Error/js/jquery-1.10.2.js">
+      <publishTime>08/17/2017 22:46:22</publishTime>
+    </File>
+    <File Include="VidoAdmin/Images/add.png">
+      <publishTime>08/19/2017 17:27:03</publishTime>
+    </File>
+    <File Include="VidoAdmin/Images/attrib.png">
+      <publishTime>08/19/2017 17:27:03</publishTime>
+    </File>
+    <File Include="VidoAdmin/Images/delete.png">
+      <publishTime>08/19/2017 17:27:03</publishTime>
+    </File>
+    <File Include="VidoAdmin/Images/detail.png">
+      <publishTime>08/19/2017 17:27:03</publishTime>
+    </File>
+    <File Include="VidoAdmin/Images/down.png">
+      <publishTime>08/19/2017 17:27:03</publishTime>
+    </File>
+    <File Include="VidoAdmin/Images/e2b80f83d68664dcd85cd4bc89c3a6dc.png">
+      <publishTime>08/31/2017 12:45:14</publishTime>
+    </File>
+    <File Include="VidoAdmin/Images/edit.png">
+      <publishTime>08/19/2017 17:27:03</publishTime>
+    </File>
+    <File Include="VidoAdmin/Images/email.png">
+      <publishTime>08/19/2017 17:27:03</publishTime>
+    </File>
+    <File Include="VidoAdmin/Images/logout.png">
+      <publishTime>08/19/2017 17:27:03</publishTime>
+    </File>
+    <File Include="VidoAdmin/Images/msg.png">
+      <publishTime>08/19/2017 17:27:03</publishTime>
+    </File>
+    <File Include="VidoAdmin/Images/noImage.gif">
+      <publishTime>08/19/2017 17:27:03</publishTime>
+    </File>
+    <File Include="VidoAdmin/Images/password.png">
+      <publishTime>08/19/2017 17:27:03</publishTime>
+    </File>
+    <File Include="VidoAdmin/Images/popBottom.jpg">
+      <publishTime>08/19/2017 17:27:03</publishTime>
+    </File>
+    <File Include="VidoAdmin/Images/popIndex.jpg">
+      <publishTime>08/19/2017 17:27:03</publishTime>
+    </File>
+    <File Include="VidoAdmin/Images/popLeft.jpg">
+      <publishTime>08/19/2017 17:27:03</publishTime>
+    </File>
+    <File Include="VidoAdmin/Images/popSelected.png">
+      <publishTime>08/19/2017 17:27:03</publishTime>
+    </File>
+    <File Include="VidoAdmin/Images/restore.png">
+      <publishTime>08/19/2017 17:27:03</publishTime>
+    </File>
+    <File Include="VidoAdmin/Images/salePrice.png">
+      <publishTime>08/19/2017 17:27:03</publishTime>
+    </File>
+    <File Include="VidoAdmin/Images/settings.png">
+      <publishTime>08/19/2017 17:27:03</publishTime>
+    </File>
+    <File Include="VidoAdmin/Images/trash.gif">
+      <publishTime>08/19/2017 17:27:03</publishTime>
+    </File>
+    <File Include="VidoAdmin/Images/up.png">
+      <publishTime>08/19/2017 17:27:03</publishTime>
+    </File>
+    <File Include="VidoAdmin/Images/wait.gif">
+      <publishTime>08/19/2017 17:27:03</publishTime>
+    </File>
+    <File Include="VidoAdmin/ManagerEdit.aspx">
+      <publishTime>08/31/2017 12:48:56</publishTime>
+    </File>
+    <File Include="VidoAdmin/ManagerIndex.aspx">
+      <publishTime>08/31/2017 12:49:01</publishTime>
+    </File>
+    <File Include="VidoAdmin/ManagerList.aspx">
+      <publishTime>08/31/2017 12:49:09</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/calendar.js">
+      <publishTime>08/17/2017 16:10:43</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/common-part.js">
+      <publishTime>08/17/2017 16:10:43</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/echarts.js">
+      <publishTime>08/17/2017 16:10:43</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/jquery-3.1.1.js">
+      <publishTime>08/17/2017 16:10:43</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/jquery.form.js">
+      <publishTime>08/17/2017 16:10:43</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/layer/layer.js">
+      <publishTime>08/17/2017 16:10:42</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/layer/mobile/layer.js">
+      <publishTime>08/17/2017 16:10:42</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/layer/mobile/need/layer.css">
+      <publishTime>08/17/2017 16:10:42</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/layer/skin/default/icon-ext.png">
+      <publishTime>08/17/2017 16:10:42</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/layer/skin/default/icon.png">
+      <publishTime>08/17/2017 16:10:42</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/layer/skin/default/layer.css">
+      <publishTime>08/17/2017 16:10:42</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/layer/skin/default/loading-0.gif">
+      <publishTime>08/17/2017 16:10:42</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/layer/skin/default/loading-1.gif">
+      <publishTime>08/17/2017 16:10:42</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/layer/skin/default/loading-2.gif">
+      <publishTime>08/17/2017 16:10:42</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/layui/css/layui.css">
+      <publishTime>08/17/2017 16:10:42</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/layui/css/layui.mobile.css">
+      <publishTime>08/17/2017 16:10:42</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/layui/css/modules/code.css">
+      <publishTime>08/17/2017 16:10:42</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/layui/css/modules/laydate/icon.png">
+      <publishTime>08/17/2017 16:10:42</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/layui/css/modules/laydate/laydate.css">
+      <publishTime>08/17/2017 16:10:42</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/layui/css/modules/layer/default/icon-ext.png">
+      <publishTime>08/17/2017 16:10:42</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/layui/css/modules/layer/default/icon.png">
+      <publishTime>08/17/2017 16:10:42</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/layui/css/modules/layer/default/layer.css">
+      <publishTime>08/17/2017 16:10:42</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/layui/css/modules/layer/default/loading-0.gif">
+      <publishTime>08/17/2017 16:10:42</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/layui/css/modules/layer/default/loading-1.gif">
+      <publishTime>08/17/2017 16:10:42</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/layui/css/modules/layer/default/loading-2.gif">
+      <publishTime>08/17/2017 16:10:42</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/layui/font/iconfont.eot">
+      <publishTime>08/17/2017 16:10:42</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/layui/font/iconfont.svg">
+      <publishTime>08/17/2017 16:10:42</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/layui/font/iconfont.ttf">
+      <publishTime>08/17/2017 16:10:42</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/layui/font/iconfont.woff">
+      <publishTime>08/17/2017 16:10:42</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/layui/images/face/0.gif">
+      <publishTime>08/17/2017 16:10:42</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/layui/images/face/1.gif">
+      <publishTime>08/17/2017 16:10:42</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/layui/images/face/10.gif">
+      <publishTime>08/17/2017 16:10:42</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/layui/images/face/11.gif">
+      <publishTime>08/17/2017 16:10:42</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/layui/images/face/12.gif">
+      <publishTime>08/17/2017 16:10:42</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/layui/images/face/13.gif">
+      <publishTime>08/17/2017 16:10:42</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/layui/images/face/14.gif">
+      <publishTime>08/17/2017 16:10:42</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/layui/images/face/15.gif">
+      <publishTime>08/17/2017 16:10:42</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/layui/images/face/16.gif">
+      <publishTime>08/17/2017 16:10:42</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/layui/images/face/17.gif">
+      <publishTime>08/17/2017 16:10:42</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/layui/images/face/18.gif">
+      <publishTime>08/17/2017 16:10:42</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/layui/images/face/19.gif">
+      <publishTime>08/17/2017 16:10:42</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/layui/images/face/2.gif">
+      <publishTime>08/17/2017 16:10:42</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/layui/images/face/20.gif">
+      <publishTime>08/17/2017 16:10:42</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/layui/images/face/21.gif">
+      <publishTime>08/17/2017 16:10:43</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/layui/images/face/22.gif">
+      <publishTime>08/17/2017 16:10:43</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/layui/images/face/23.gif">
+      <publishTime>08/17/2017 16:10:43</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/layui/images/face/24.gif">
+      <publishTime>08/17/2017 16:10:43</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/layui/images/face/25.gif">
+      <publishTime>08/17/2017 16:10:43</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/layui/images/face/26.gif">
+      <publishTime>08/17/2017 16:10:43</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/layui/images/face/27.gif">
+      <publishTime>08/17/2017 16:10:43</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/layui/images/face/28.gif">
+      <publishTime>08/17/2017 16:10:43</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/layui/images/face/29.gif">
+      <publishTime>08/17/2017 16:10:43</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/layui/images/face/3.gif">
+      <publishTime>08/17/2017 16:10:43</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/layui/images/face/30.gif">
+      <publishTime>08/17/2017 16:10:43</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/layui/images/face/31.gif">
+      <publishTime>08/17/2017 16:10:43</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/layui/images/face/32.gif">
+      <publishTime>08/17/2017 16:10:43</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/layui/images/face/33.gif">
+      <publishTime>08/17/2017 16:10:43</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/layui/images/face/34.gif">
+      <publishTime>08/17/2017 16:10:43</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/layui/images/face/35.gif">
+      <publishTime>08/17/2017 16:10:43</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/layui/images/face/36.gif">
+      <publishTime>08/17/2017 16:10:43</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/layui/images/face/37.gif">
+      <publishTime>08/17/2017 16:10:43</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/layui/images/face/38.gif">
+      <publishTime>08/17/2017 16:10:43</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/layui/images/face/39.gif">
+      <publishTime>08/17/2017 16:10:43</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/layui/images/face/4.gif">
+      <publishTime>08/17/2017 16:10:43</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/layui/images/face/40.gif">
+      <publishTime>08/17/2017 16:10:43</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/layui/images/face/41.gif">
+      <publishTime>08/17/2017 16:10:43</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/layui/images/face/42.gif">
+      <publishTime>08/17/2017 16:10:43</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/layui/images/face/43.gif">
+      <publishTime>08/17/2017 16:10:43</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/layui/images/face/44.gif">
+      <publishTime>08/17/2017 16:10:43</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/layui/images/face/45.gif">
+      <publishTime>08/17/2017 16:10:43</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/layui/images/face/46.gif">
+      <publishTime>08/17/2017 16:10:43</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/layui/images/face/47.gif">
+      <publishTime>08/17/2017 16:10:43</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/layui/images/face/48.gif">
+      <publishTime>08/17/2017 16:10:43</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/layui/images/face/49.gif">
+      <publishTime>08/17/2017 16:10:43</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/layui/images/face/5.gif">
+      <publishTime>08/17/2017 16:10:43</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/layui/images/face/50.gif">
+      <publishTime>08/17/2017 16:10:43</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/layui/images/face/51.gif">
+      <publishTime>08/17/2017 16:10:43</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/layui/images/face/52.gif">
+      <publishTime>08/17/2017 16:10:43</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/layui/images/face/53.gif">
+      <publishTime>08/17/2017 16:10:43</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/layui/images/face/54.gif">
+      <publishTime>08/17/2017 16:10:43</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/layui/images/face/55.gif">
+      <publishTime>08/17/2017 16:10:43</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/layui/images/face/56.gif">
+      <publishTime>08/17/2017 16:10:43</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/layui/images/face/57.gif">
+      <publishTime>08/17/2017 16:10:43</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/layui/images/face/58.gif">
+      <publishTime>08/17/2017 16:10:43</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/layui/images/face/59.gif">
+      <publishTime>08/17/2017 16:10:43</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/layui/images/face/6.gif">
+      <publishTime>08/17/2017 16:10:43</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/layui/images/face/60.gif">
+      <publishTime>08/17/2017 16:10:43</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/layui/images/face/61.gif">
+      <publishTime>08/17/2017 16:10:43</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/layui/images/face/62.gif">
+      <publishTime>08/17/2017 16:10:43</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/layui/images/face/63.gif">
+      <publishTime>08/17/2017 16:10:43</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/layui/images/face/64.gif">
+      <publishTime>08/17/2017 16:10:43</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/layui/images/face/65.gif">
+      <publishTime>08/17/2017 16:10:43</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/layui/images/face/66.gif">
+      <publishTime>08/17/2017 16:10:43</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/layui/images/face/67.gif">
+      <publishTime>08/17/2017 16:10:43</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/layui/images/face/68.gif">
+      <publishTime>08/17/2017 16:10:43</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/layui/images/face/69.gif">
+      <publishTime>08/17/2017 16:10:43</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/layui/images/face/7.gif">
+      <publishTime>08/17/2017 16:10:43</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/layui/images/face/70.gif">
+      <publishTime>08/17/2017 16:10:43</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/layui/images/face/71.gif">
+      <publishTime>08/17/2017 16:10:43</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/layui/images/face/8.gif">
+      <publishTime>08/17/2017 16:10:43</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/layui/images/face/9.gif">
+      <publishTime>08/17/2017 16:10:43</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/layui/lay/dest/layui.all.js">
+      <publishTime>08/17/2017 16:10:43</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/layui/lay/modules/code.js">
+      <publishTime>08/17/2017 16:10:43</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/layui/lay/modules/element.js">
+      <publishTime>08/17/2017 16:10:43</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/layui/lay/modules/flow.js">
+      <publishTime>08/17/2017 16:10:43</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/layui/lay/modules/form.js">
+      <publishTime>08/17/2017 16:10:43</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/layui/lay/modules/jquery.js">
+      <publishTime>08/17/2017 16:10:43</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/layui/lay/modules/laydate.js">
+      <publishTime>08/17/2017 16:10:43</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/layui/lay/modules/layedit.js">
+      <publishTime>08/17/2017 16:10:43</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/layui/lay/modules/layer.js">
+      <publishTime>08/17/2017 16:10:43</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/layui/lay/modules/laypage.js">
+      <publishTime>08/17/2017 16:10:43</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/layui/lay/modules/laytpl.js">
+      <publishTime>08/17/2017 16:10:43</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/layui/lay/modules/mobile.js">
+      <publishTime>08/17/2017 16:10:43</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/layui/lay/modules/tree.js">
+      <publishTime>08/17/2017 16:10:43</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/layui/lay/modules/upload.js">
+      <publishTime>08/17/2017 16:10:43</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/layui/lay/modules/util.js">
+      <publishTime>08/17/2017 16:10:43</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/layui/layui.js">
+      <publishTime>08/17/2017 16:10:43</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/MYSystem.js.cs/Config.js">
+      <publishTime>08/18/2017 20:16:49</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/MYSystem.js.cs/Login.js">
+      <publishTime>08/18/2017 20:04:07</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/MYSystem.js.cs/Manager.js">
+      <publishTime>08/18/2017 20:05:32</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/MYSystem.js.cs/Users.js">
+      <publishTime>09/20/2017 16:55:41</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/MYSystem.js.cs/Video.js">
+      <publishTime>08/29/2017 09:33:52</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/system.js">
+      <publishTime>08/22/2017 20:28:28</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/dialogs/anchor/anchor.html">
+      <publishTime>08/21/2017 16:32:15</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/dialogs/attachment/attachment.css">
+      <publishTime>08/21/2017 16:32:15</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/dialogs/attachment/attachment.html">
+      <publishTime>08/21/2017 16:32:15</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/dialogs/attachment/attachment.js">
+      <publishTime>08/21/2017 16:32:15</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/dialogs/attachment/fileTypeImages/icon_chm.gif">
+      <publishTime>08/21/2017 16:32:15</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/dialogs/attachment/fileTypeImages/icon_default.png">
+      <publishTime>08/21/2017 16:32:15</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/dialogs/attachment/fileTypeImages/icon_doc.gif">
+      <publishTime>08/21/2017 16:32:15</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/dialogs/attachment/fileTypeImages/icon_exe.gif">
+      <publishTime>08/21/2017 16:32:15</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/dialogs/attachment/fileTypeImages/icon_jpg.gif">
+      <publishTime>08/21/2017 16:32:15</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/dialogs/attachment/fileTypeImages/icon_mp3.gif">
+      <publishTime>08/21/2017 16:32:15</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/dialogs/attachment/fileTypeImages/icon_mv.gif">
+      <publishTime>08/21/2017 16:32:15</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/dialogs/attachment/fileTypeImages/icon_pdf.gif">
+      <publishTime>08/21/2017 16:32:15</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/dialogs/attachment/fileTypeImages/icon_ppt.gif">
+      <publishTime>08/21/2017 16:32:15</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/dialogs/attachment/fileTypeImages/icon_psd.gif">
+      <publishTime>08/21/2017 16:32:15</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/dialogs/attachment/fileTypeImages/icon_rar.gif">
+      <publishTime>08/21/2017 16:32:15</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/dialogs/attachment/fileTypeImages/icon_txt.gif">
+      <publishTime>08/21/2017 16:32:15</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/dialogs/attachment/fileTypeImages/icon_xls.gif">
+      <publishTime>08/21/2017 16:32:15</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/dialogs/attachment/images/alignicon.gif">
+      <publishTime>08/21/2017 16:32:15</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/dialogs/attachment/images/alignicon.png">
+      <publishTime>08/21/2017 16:32:15</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/dialogs/attachment/images/bg.png">
+      <publishTime>08/21/2017 16:32:15</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/dialogs/attachment/images/file-icons.gif">
+      <publishTime>08/21/2017 16:32:15</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/dialogs/attachment/images/file-icons.png">
+      <publishTime>08/21/2017 16:32:15</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/dialogs/attachment/images/icons.gif">
+      <publishTime>08/21/2017 16:32:15</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/dialogs/attachment/images/icons.png">
+      <publishTime>08/21/2017 16:32:15</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/dialogs/attachment/images/image.png">
+      <publishTime>08/21/2017 16:32:15</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/dialogs/attachment/images/progress.png">
+      <publishTime>08/21/2017 16:32:15</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/dialogs/attachment/images/success.gif">
+      <publishTime>08/21/2017 16:32:15</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/dialogs/attachment/images/success.png">
+      <publishTime>08/21/2017 16:32:15</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/dialogs/background/background.css">
+      <publishTime>08/21/2017 16:32:15</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/dialogs/background/background.html">
+      <publishTime>08/21/2017 16:32:15</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/dialogs/background/background.js">
+      <publishTime>08/21/2017 16:32:15</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/dialogs/background/images/bg.png">
+      <publishTime>08/21/2017 16:32:15</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/dialogs/background/images/success.png">
+      <publishTime>08/21/2017 16:32:15</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/dialogs/charts/chart.config.js">
+      <publishTime>08/21/2017 16:32:15</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/dialogs/charts/charts.css">
+      <publishTime>08/21/2017 16:32:15</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/dialogs/charts/charts.html">
+      <publishTime>08/21/2017 16:32:15</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/dialogs/charts/charts.js">
+      <publishTime>08/21/2017 16:32:15</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/dialogs/charts/images/charts0.png">
+      <publishTime>08/21/2017 16:32:15</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/dialogs/charts/images/charts1.png">
+      <publishTime>08/21/2017 16:32:15</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/dialogs/charts/images/charts2.png">
+      <publishTime>08/21/2017 16:32:15</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/dialogs/charts/images/charts3.png">
+      <publishTime>08/21/2017 16:32:15</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/dialogs/charts/images/charts4.png">
+      <publishTime>08/21/2017 16:32:15</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/dialogs/charts/images/charts5.png">
+      <publishTime>08/21/2017 16:32:15</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/dialogs/emotion/emotion.css">
+      <publishTime>08/21/2017 16:32:15</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/dialogs/emotion/emotion.html">
+      <publishTime>08/21/2017 16:32:15</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/dialogs/emotion/emotion.js">
+      <publishTime>08/21/2017 16:32:15</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/dialogs/emotion/images/0.gif">
+      <publishTime>08/21/2017 16:32:15</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/dialogs/emotion/images/bface.gif">
+      <publishTime>08/21/2017 16:32:15</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/dialogs/emotion/images/cface.gif">
+      <publishTime>08/21/2017 16:32:15</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/dialogs/emotion/images/fface.gif">
+      <publishTime>08/21/2017 16:32:15</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/dialogs/emotion/images/jxface2.gif">
+      <publishTime>08/21/2017 16:32:15</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/dialogs/emotion/images/neweditor-tab-bg.png">
+      <publishTime>08/21/2017 16:32:15</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/dialogs/emotion/images/tface.gif">
+      <publishTime>08/21/2017 16:32:15</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/dialogs/emotion/images/wface.gif">
+      <publishTime>08/21/2017 16:32:15</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/dialogs/emotion/images/yface.gif">
+      <publishTime>08/21/2017 16:32:15</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/dialogs/gmap/gmap.html">
+      <publishTime>08/21/2017 16:32:15</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/dialogs/help/help.css">
+      <publishTime>08/21/2017 16:32:15</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/dialogs/help/help.html">
+      <publishTime>08/21/2017 16:32:15</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/dialogs/help/help.js">
+      <publishTime>08/21/2017 16:32:15</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/dialogs/image/image.css">
+      <publishTime>08/21/2017 16:32:15</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/dialogs/image/image.html">
+      <publishTime>08/21/2017 16:32:15</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/dialogs/image/image.js">
+      <publishTime>08/21/2017 16:32:15</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/dialogs/image/images/alignicon.jpg">
+      <publishTime>08/21/2017 16:32:15</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/dialogs/image/images/bg.png">
+      <publishTime>08/21/2017 16:32:15</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/dialogs/image/images/icons.gif">
+      <publishTime>08/21/2017 16:32:15</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/dialogs/image/images/icons.png">
+      <publishTime>08/21/2017 16:32:15</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/dialogs/image/images/image.png">
+      <publishTime>08/21/2017 16:32:15</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/dialogs/image/images/progress.png">
+      <publishTime>08/21/2017 16:32:15</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/dialogs/image/images/success.gif">
+      <publishTime>08/21/2017 16:32:15</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/dialogs/image/images/success.png">
+      <publishTime>08/21/2017 16:32:15</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/dialogs/insertframe/insertframe.html">
+      <publishTime>08/21/2017 16:32:15</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/dialogs/internal.js">
+      <publishTime>08/21/2017 16:32:15</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/dialogs/link/link.html">
+      <publishTime>08/21/2017 16:32:15</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/dialogs/map/map.html">
+      <publishTime>08/21/2017 16:32:15</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/dialogs/map/show.html">
+      <publishTime>08/21/2017 16:32:15</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/dialogs/music/music.css">
+      <publishTime>08/21/2017 16:32:15</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/dialogs/music/music.html">
+      <publishTime>08/21/2017 16:32:15</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/dialogs/music/music.js">
+      <publishTime>08/21/2017 16:32:15</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/dialogs/preview/preview.html">
+      <publishTime>08/21/2017 16:32:15</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/dialogs/scrawl/images/addimg.png">
+      <publishTime>08/21/2017 16:32:16</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/dialogs/scrawl/images/brush.png">
+      <publishTime>08/21/2017 16:32:16</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/dialogs/scrawl/images/delimg.png">
+      <publishTime>08/21/2017 16:32:16</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/dialogs/scrawl/images/delimgH.png">
+      <publishTime>08/21/2017 16:32:16</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/dialogs/scrawl/images/empty.png">
+      <publishTime>08/21/2017 16:32:16</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/dialogs/scrawl/images/emptyH.png">
+      <publishTime>08/21/2017 16:32:16</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/dialogs/scrawl/images/eraser.png">
+      <publishTime>08/21/2017 16:32:16</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/dialogs/scrawl/images/redo.png">
+      <publishTime>08/21/2017 16:32:16</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/dialogs/scrawl/images/redoH.png">
+      <publishTime>08/21/2017 16:32:16</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/dialogs/scrawl/images/scale.png">
+      <publishTime>08/21/2017 16:32:16</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/dialogs/scrawl/images/scaleH.png">
+      <publishTime>08/21/2017 16:32:16</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/dialogs/scrawl/images/size.png">
+      <publishTime>08/21/2017 16:32:16</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/dialogs/scrawl/images/undo.png">
+      <publishTime>08/21/2017 16:32:16</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/dialogs/scrawl/images/undoH.png">
+      <publishTime>08/21/2017 16:32:16</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/dialogs/scrawl/scrawl.css">
+      <publishTime>08/21/2017 16:32:16</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/dialogs/scrawl/scrawl.html">
+      <publishTime>08/21/2017 16:32:16</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/dialogs/scrawl/scrawl.js">
+      <publishTime>08/21/2017 16:32:16</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/dialogs/searchreplace/searchreplace.html">
+      <publishTime>08/21/2017 16:32:16</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/dialogs/searchreplace/searchreplace.js">
+      <publishTime>08/21/2017 16:32:16</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/dialogs/snapscreen/snapscreen.html">
+      <publishTime>08/21/2017 16:32:16</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/dialogs/spechars/spechars.html">
+      <publishTime>08/21/2017 16:32:16</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/dialogs/spechars/spechars.js">
+      <publishTime>08/21/2017 16:32:16</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/dialogs/table/dragicon.png">
+      <publishTime>08/21/2017 16:32:16</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/dialogs/table/edittable.css">
+      <publishTime>08/21/2017 16:32:16</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/dialogs/table/edittable.html">
+      <publishTime>08/21/2017 16:32:16</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/dialogs/table/edittable.js">
+      <publishTime>08/21/2017 16:32:16</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/dialogs/table/edittd.html">
+      <publishTime>08/21/2017 16:32:16</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/dialogs/table/edittip.html">
+      <publishTime>08/21/2017 16:32:16</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/dialogs/template/config.js">
+      <publishTime>08/21/2017 16:32:16</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/dialogs/template/images/bg.gif">
+      <publishTime>08/21/2017 16:32:16</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/dialogs/template/images/pre0.png">
+      <publishTime>08/21/2017 16:32:16</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/dialogs/template/images/pre1.png">
+      <publishTime>08/21/2017 16:32:16</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/dialogs/template/images/pre2.png">
+      <publishTime>08/21/2017 16:32:16</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/dialogs/template/images/pre3.png">
+      <publishTime>08/21/2017 16:32:16</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/dialogs/template/images/pre4.png">
+      <publishTime>08/21/2017 16:32:16</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/dialogs/template/template.css">
+      <publishTime>08/21/2017 16:32:16</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/dialogs/template/template.html">
+      <publishTime>08/21/2017 16:32:16</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/dialogs/template/template.js">
+      <publishTime>08/21/2017 16:32:16</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/dialogs/video/images/bg.png">
+      <publishTime>08/21/2017 16:32:16</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/dialogs/video/images/center_focus.jpg">
+      <publishTime>08/21/2017 16:32:16</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/dialogs/video/images/file-icons.gif">
+      <publishTime>08/21/2017 16:32:16</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/dialogs/video/images/file-icons.png">
+      <publishTime>08/21/2017 16:32:16</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/dialogs/video/images/icons.gif">
+      <publishTime>08/21/2017 16:32:16</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/dialogs/video/images/icons.png">
+      <publishTime>08/21/2017 16:32:16</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/dialogs/video/images/image.png">
+      <publishTime>08/21/2017 16:32:16</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/dialogs/video/images/left_focus.jpg">
+      <publishTime>08/21/2017 16:32:16</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/dialogs/video/images/none_focus.jpg">
+      <publishTime>08/21/2017 16:32:16</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/dialogs/video/images/progress.png">
+      <publishTime>08/21/2017 16:32:16</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/dialogs/video/images/right_focus.jpg">
+      <publishTime>08/21/2017 16:32:16</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/dialogs/video/images/success.gif">
+      <publishTime>08/21/2017 16:32:16</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/dialogs/video/images/success.png">
+      <publishTime>08/21/2017 16:32:16</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/dialogs/video/video.css">
+      <publishTime>08/21/2017 16:32:16</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/dialogs/video/video.html">
+      <publishTime>08/21/2017 16:32:16</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/dialogs/video/video.js">
+      <publishTime>08/21/2017 16:32:16</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/dialogs/webapp/webapp.html">
+      <publishTime>08/21/2017 16:32:16</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/dialogs/wordimage/fClipboard_ueditor.swf">
+      <publishTime>08/21/2017 16:32:16</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/dialogs/wordimage/imageUploader.swf">
+      <publishTime>08/21/2017 16:32:16</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/dialogs/wordimage/tangram.js">
+      <publishTime>08/21/2017 16:32:16</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/dialogs/wordimage/wordimage.html">
+      <publishTime>08/21/2017 16:32:16</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/dialogs/wordimage/wordimage.js">
+      <publishTime>08/21/2017 16:32:16</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/lang/en/en.js">
+      <publishTime>08/21/2017 16:32:16</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/lang/en/images/addimage.png">
+      <publishTime>08/21/2017 16:32:16</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/lang/en/images/alldeletebtnhoverskin.png">
+      <publishTime>08/21/2017 16:32:16</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/lang/en/images/alldeletebtnupskin.png">
+      <publishTime>08/21/2017 16:32:16</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/lang/en/images/background.png">
+      <publishTime>08/21/2017 16:32:16</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/lang/en/images/button.png">
+      <publishTime>08/21/2017 16:32:16</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/lang/en/images/copy.png">
+      <publishTime>08/21/2017 16:32:16</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/lang/en/images/deletedisable.png">
+      <publishTime>08/21/2017 16:32:16</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/lang/en/images/deleteenable.png">
+      <publishTime>08/21/2017 16:32:16</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/lang/en/images/listbackground.png">
+      <publishTime>08/21/2017 16:32:16</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/lang/en/images/localimage.png">
+      <publishTime>08/21/2017 16:32:16</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/lang/en/images/music.png">
+      <publishTime>08/21/2017 16:32:16</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/lang/en/images/rotateleftdisable.png">
+      <publishTime>08/21/2017 16:32:16</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/lang/en/images/rotateleftenable.png">
+      <publishTime>08/21/2017 16:32:16</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/lang/en/images/rotaterightdisable.png">
+      <publishTime>08/21/2017 16:32:16</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/lang/en/images/rotaterightenable.png">
+      <publishTime>08/21/2017 16:32:16</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/lang/en/images/upload.png">
+      <publishTime>08/21/2017 16:32:16</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/lang/zh-cn/images/copy.png">
+      <publishTime>08/21/2017 16:32:16</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/lang/zh-cn/images/localimage.png">
+      <publishTime>08/21/2017 16:32:16</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/lang/zh-cn/images/music.png">
+      <publishTime>08/21/2017 16:32:16</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/lang/zh-cn/images/upload.png">
+      <publishTime>08/21/2017 16:32:16</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/lang/zh-cn/zh-cn.js">
+      <publishTime>08/21/2017 16:32:16</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/net/Bin/Newtonsoft.Json.dll">
+      <publishTime>08/21/2017 16:32:16</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/net/config.json">
+      <publishTime>08/21/2017 16:32:16</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/net/controller.ashx">
+      <publishTime>08/21/2017 16:32:16</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/net/net.sln">
+      <publishTime>08/21/2017 16:32:16</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/net/net.v12.suo">
+      <publishTime>08/21/2017 16:32:16</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/net/Web.config">
+      <publishTime>08/21/2017 16:32:16</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/themes/default/css/ueditor.css">
+      <publishTime>08/21/2017 16:32:16</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/themes/default/css/ueditor.min.css">
+      <publishTime>08/21/2017 16:32:16</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/themes/default/dialogbase.css">
+      <publishTime>08/21/2017 16:32:16</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/themes/default/images/anchor.gif">
+      <publishTime>08/21/2017 16:32:16</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/themes/default/images/arrow.png">
+      <publishTime>08/21/2017 16:32:16</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/themes/default/images/arrow_down.png">
+      <publishTime>08/21/2017 16:32:16</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/themes/default/images/arrow_up.png">
+      <publishTime>08/21/2017 16:32:16</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/themes/default/images/button-bg.gif">
+      <publishTime>08/21/2017 16:32:16</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/themes/default/images/cancelbutton.gif">
+      <publishTime>08/21/2017 16:32:16</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/themes/default/images/charts.png">
+      <publishTime>08/21/2017 16:32:16</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/themes/default/images/cursor_h.gif">
+      <publishTime>08/21/2017 16:32:16</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/themes/default/images/cursor_h.png">
+      <publishTime>08/21/2017 16:32:16</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/themes/default/images/cursor_v.gif">
+      <publishTime>08/21/2017 16:32:16</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/themes/default/images/cursor_v.png">
+      <publishTime>08/21/2017 16:32:16</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/themes/default/images/dialog-title-bg.png">
+      <publishTime>08/21/2017 16:32:16</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/themes/default/images/filescan.png">
+      <publishTime>08/21/2017 16:32:16</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/themes/default/images/highlighted.gif">
+      <publishTime>08/21/2017 16:32:16</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/themes/default/images/icons-all.gif">
+      <publishTime>08/21/2017 16:32:16</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/themes/default/images/icons.gif">
+      <publishTime>08/21/2017 16:32:16</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/themes/default/images/icons.png">
+      <publishTime>08/21/2017 16:32:16</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/themes/default/images/loaderror.png">
+      <publishTime>08/21/2017 16:32:16</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/themes/default/images/loading.gif">
+      <publishTime>08/21/2017 16:32:16</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/themes/default/images/lock.gif">
+      <publishTime>08/21/2017 16:32:16</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/themes/default/images/neweditor-tab-bg.png">
+      <publishTime>08/21/2017 16:32:16</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/themes/default/images/pagebreak.gif">
+      <publishTime>08/21/2017 16:32:16</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/themes/default/images/scale.png">
+      <publishTime>08/21/2017 16:32:16</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/themes/default/images/sortable.png">
+      <publishTime>08/21/2017 16:32:16</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/themes/default/images/spacer.gif">
+      <publishTime>08/21/2017 16:32:16</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/themes/default/images/sparator_v.png">
+      <publishTime>08/21/2017 16:32:16</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/themes/default/images/table-cell-align.png">
+      <publishTime>08/21/2017 16:32:16</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/themes/default/images/tangram-colorpicker.png">
+      <publishTime>08/21/2017 16:32:16</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/themes/default/images/toolbar_bg.png">
+      <publishTime>08/21/2017 16:32:16</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/themes/default/images/unhighlighted.gif">
+      <publishTime>08/21/2017 16:32:16</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/themes/default/images/upload.png">
+      <publishTime>08/21/2017 16:32:16</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/themes/default/images/videologo.gif">
+      <publishTime>08/21/2017 16:32:16</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/themes/default/images/word.gif">
+      <publishTime>08/21/2017 16:32:16</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/themes/default/images/wordpaste.png">
+      <publishTime>08/21/2017 16:32:16</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/themes/iframe.css">
+      <publishTime>08/21/2017 16:32:16</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/third-party/codemirror/codemirror.css">
+      <publishTime>08/21/2017 16:32:16</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/third-party/codemirror/codemirror.js">
+      <publishTime>08/21/2017 16:32:16</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/third-party/highcharts/adapters/mootools-adapter.js">
+      <publishTime>08/21/2017 16:32:16</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/third-party/highcharts/adapters/mootools-adapter.src.js">
+      <publishTime>08/21/2017 16:32:16</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/third-party/highcharts/adapters/prototype-adapter.js">
+      <publishTime>08/21/2017 16:32:16</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/third-party/highcharts/adapters/prototype-adapter.src.js">
+      <publishTime>08/21/2017 16:32:16</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/third-party/highcharts/adapters/standalone-framework.js">
+      <publishTime>08/21/2017 16:32:16</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/third-party/highcharts/adapters/standalone-framework.src.js">
+      <publishTime>08/21/2017 16:32:16</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/third-party/highcharts/highcharts-more.js">
+      <publishTime>08/21/2017 16:32:16</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/third-party/highcharts/highcharts-more.src.js">
+      <publishTime>08/21/2017 16:32:16</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/third-party/highcharts/highcharts.js">
+      <publishTime>08/21/2017 16:32:16</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/third-party/highcharts/highcharts.src.js">
+      <publishTime>08/21/2017 16:32:16</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/third-party/highcharts/modules/annotations.js">
+      <publishTime>08/21/2017 16:32:16</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/third-party/highcharts/modules/annotations.src.js">
+      <publishTime>08/21/2017 16:32:16</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/third-party/highcharts/modules/canvas-tools.js">
+      <publishTime>08/21/2017 16:32:16</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/third-party/highcharts/modules/canvas-tools.src.js">
+      <publishTime>08/21/2017 16:32:16</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/third-party/highcharts/modules/data.js">
+      <publishTime>08/21/2017 16:32:16</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/third-party/highcharts/modules/data.src.js">
+      <publishTime>08/21/2017 16:32:16</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/third-party/highcharts/modules/drilldown.js">
+      <publishTime>08/21/2017 16:32:16</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/third-party/highcharts/modules/drilldown.src.js">
+      <publishTime>08/21/2017 16:32:16</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/third-party/highcharts/modules/exporting.js">
+      <publishTime>08/21/2017 16:32:16</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/third-party/highcharts/modules/exporting.src.js">
+      <publishTime>08/21/2017 16:32:16</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/third-party/highcharts/modules/funnel.js">
+      <publishTime>08/21/2017 16:32:16</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/third-party/highcharts/modules/funnel.src.js">
+      <publishTime>08/21/2017 16:32:16</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/third-party/highcharts/modules/heatmap.js">
+      <publishTime>08/21/2017 16:32:16</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/third-party/highcharts/modules/heatmap.src.js">
+      <publishTime>08/21/2017 16:32:16</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/third-party/highcharts/modules/map.js">
+      <publishTime>08/21/2017 16:32:16</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/third-party/highcharts/modules/map.src.js">
+      <publishTime>08/21/2017 16:32:16</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/third-party/highcharts/modules/no-data-to-display.js">
+      <publishTime>08/21/2017 16:32:16</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/third-party/highcharts/modules/no-data-to-display.src.js">
+      <publishTime>08/21/2017 16:32:16</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/third-party/highcharts/themes/dark-blue.js">
+      <publishTime>08/21/2017 16:32:16</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/third-party/highcharts/themes/dark-green.js">
+      <publishTime>08/21/2017 16:32:16</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/third-party/highcharts/themes/gray.js">
+      <publishTime>08/21/2017 16:32:16</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/third-party/highcharts/themes/grid.js">
+      <publishTime>08/21/2017 16:32:16</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/third-party/highcharts/themes/skies.js">
+      <publishTime>08/21/2017 16:32:16</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/third-party/jquery-1.10.2.js">
+      <publishTime>08/21/2017 16:32:16</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/third-party/jquery-1.10.2.min.js">
+      <publishTime>08/21/2017 16:32:16</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/third-party/jquery-1.10.2.min.map">
+      <publishTime>08/21/2017 16:32:16</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/third-party/snapscreen/UEditorSnapscreen.exe">
+      <publishTime>08/21/2017 16:32:16</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/third-party/SyntaxHighlighter/shCore.js">
+      <publishTime>08/21/2017 16:32:16</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/third-party/SyntaxHighlighter/shCoreDefault.css">
+      <publishTime>08/21/2017 16:32:16</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/third-party/video-js/font/vjs.eot">
+      <publishTime>08/21/2017 16:32:16</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/third-party/video-js/font/vjs.svg">
+      <publishTime>08/21/2017 16:32:16</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/third-party/video-js/font/vjs.ttf">
+      <publishTime>08/21/2017 16:32:16</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/third-party/video-js/font/vjs.woff">
+      <publishTime>08/21/2017 16:32:16</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/third-party/video-js/video-js.css">
+      <publishTime>08/21/2017 16:32:16</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/third-party/video-js/video-js.min.css">
+      <publishTime>08/21/2017 16:32:16</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/third-party/video-js/video-js.swf">
+      <publishTime>08/21/2017 16:32:16</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/third-party/video-js/video.dev.js">
+      <publishTime>08/21/2017 16:32:16</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/third-party/video-js/video.js">
+      <publishTime>08/21/2017 16:32:16</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/third-party/webuploader/Uploader.swf">
+      <publishTime>08/21/2017 16:32:16</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/third-party/webuploader/webuploader.css">
+      <publishTime>08/21/2017 16:32:16</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/third-party/webuploader/webuploader.custom.js">
+      <publishTime>08/21/2017 16:32:16</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/third-party/webuploader/webuploader.custom.min.js">
+      <publishTime>08/21/2017 16:32:16</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/third-party/webuploader/webuploader.flashonly.js">
+      <publishTime>08/21/2017 16:32:16</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/third-party/webuploader/webuploader.flashonly.min.js">
+      <publishTime>08/21/2017 16:32:16</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/third-party/webuploader/webuploader.html5only.js">
+      <publishTime>08/21/2017 16:32:16</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/third-party/webuploader/webuploader.html5only.min.js">
+      <publishTime>08/21/2017 16:32:16</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/third-party/webuploader/webuploader.js">
+      <publishTime>08/21/2017 16:32:16</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/third-party/webuploader/webuploader.min.js">
+      <publishTime>08/21/2017 16:32:16</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/third-party/webuploader/webuploader.withoutimage.js">
+      <publishTime>08/21/2017 16:32:16</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/third-party/webuploader/webuploader.withoutimage.min.js">
+      <publishTime>08/21/2017 16:32:16</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/third-party/xss.min.js">
+      <publishTime>08/21/2017 16:32:16</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/third-party/zeroclipboard/ZeroClipboard.js">
+      <publishTime>08/21/2017 16:32:16</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/third-party/zeroclipboard/ZeroClipboard.min.js">
+      <publishTime>08/21/2017 16:32:16</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/third-party/zeroclipboard/ZeroClipboard.swf">
+      <publishTime>08/21/2017 16:32:16</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/ueditor.all.min.js">
+      <publishTime>08/21/2017 16:32:16</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/ueditor.config.js">
+      <publishTime>08/22/2017 12:07:40</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/ueditor.parse.js">
+      <publishTime>08/21/2017 16:32:16</publishTime>
+    </File>
+    <File Include="VidoAdmin/Script/ueditor/ueditor.parse.min.js">
+      <publishTime>08/21/2017 16:32:16</publishTime>
+    </File>
+    <File Include="VidoAdmin/style.css">
+      <publishTime>08/23/2017 15:47:41</publishTime>
+    </File>
+    <File Include="VidoAdmin/UsersDetailEdit.aspx">
+      <publishTime>08/31/2017 12:49:15</publishTime>
+    </File>
+    <File Include="VidoAdmin/UsersIndex.aspx">
+      <publishTime>08/31/2017 12:49:20</publishTime>
+    </File>
+    <File Include="VidoAdmin/UsersList.aspx">
+      <publishTime>08/31/2017 12:49:29</publishTime>
+    </File>
+    <File Include="VidoAdmin/UsersPasswordEdit.aspx">
+      <publishTime>08/31/2017 12:49:34</publishTime>
+    </File>
+    <File Include="VidoAdmin/UserStateAttr.aspx">
+      <publishTime>08/31/2017 12:49:39</publishTime>
+    </File>
+    <File Include="VidoAdmin/UserStateEdit.aspx">
+      <publishTime>08/31/2017 12:49:44</publishTime>
+    </File>
+    <File Include="VidoAdmin/UsersUserNameMailEdit.aspx">
+      <publishTime>08/31/2017 12:49:49</publishTime>
+    </File>
+    <File Include="VidoAdmin/VideoAttribConfig.aspx">
+      <publishTime>08/31/2017 12:49:54</publishTime>
+    </File>
+    <File Include="VidoAdmin/VideoAttribConfigCopyList.aspx">
+      <publishTime>08/31/2017 12:49:59</publishTime>
+    </File>
+    <File Include="VidoAdmin/VideoAttribConfigEdit.aspx">
+      <publishTime>08/31/2017 12:50:04</publishTime>
+    </File>
+    <File Include="VidoAdmin/VideoAttribConfigList.aspx">
+      <publishTime>08/31/2017 12:50:08</publishTime>
+    </File>
+    <File Include="VidoAdmin/VideoCategory.aspx">
+      <publishTime>08/31/2017 12:50:13</publishTime>
+    </File>
+    <File Include="VidoAdmin/VideoCategoryEdit.aspx">
+      <publishTime>08/31/2017 12:50:17</publishTime>
+    </File>
+    <File Include="VidoAdmin/VideoDetailEdit.aspx">
+      <publishTime>08/31/2017 12:50:22</publishTime>
+    </File>
+    <File Include="VidoAdmin/VideoIndex.aspx">
+      <publishTime>08/31/2017 12:50:27</publishTime>
+    </File>
+    <File Include="VidoAdmin/VideoList.aspx">
+      <publishTime>08/31/2017 12:50:32</publishTime>
+    </File>
+    <File Include="VidoAdmin/VideoSearch.aspx">
+      <publishTime>08/31/2017 12:50:39</publishTime>
+    </File>
+    <File Include="VidoAdmin/VideoSearchList.aspx">
+      <publishTime>08/31/2017 12:50:46</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>09/07/2017 20:43:32</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

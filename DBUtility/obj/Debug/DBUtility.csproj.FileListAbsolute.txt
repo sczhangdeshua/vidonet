@@ -1,0 +1,13 @@
+H:\项目\VideoNet\VideoNet\DBUtility\bin\Debug\Maticsoft.DBUtility.dll
+H:\项目\VideoNet\VideoNet\DBUtility\bin\Debug\Maticsoft.DBUtility.pdb
+H:\项目\VideoNet\VideoNet\DBUtility\bin\Debug\MySql.Data.dll
+H:\项目\VideoNet\VideoNet\DBUtility\bin\Debug\System.Data.SQLite.DLL
+H:\项目\VideoNet\VideoNet\DBUtility\obj\Debug\DBUtility.csprojResolveAssemblyReference.cache
+H:\项目\VideoNet\VideoNet\DBUtility\obj\Debug\Maticsoft.DBUtility.dll
+H:\项目\VideoNet\VideoNet\DBUtility\obj\Debug\Maticsoft.DBUtility.pdb
+C:\Users\张权\Desktop\VideoNet\DBUtility\bin\Debug\Maticsoft.DBUtility.dll
+C:\Users\张权\Desktop\VideoNet\DBUtility\bin\Debug\Maticsoft.DBUtility.pdb
+C:\Users\张权\Desktop\VideoNet\DBUtility\bin\Debug\MySql.Data.dll
+C:\Users\张权\Desktop\VideoNet\DBUtility\bin\Debug\System.Data.SQLite.DLL
+C:\Users\张权\Desktop\VideoNet\DBUtility\obj\Debug\Maticsoft.DBUtility.dll
+C:\Users\张权\Desktop\VideoNet\DBUtility\obj\Debug\Maticsoft.DBUtility.pdb
